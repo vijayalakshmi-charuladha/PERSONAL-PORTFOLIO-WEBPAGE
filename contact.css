@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+    color: #333;
+}
+
+.contact-section h1 {
+    font-size: 2.5rem;
+    color: #ff4081;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #444;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact-item {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.contact-item i {
+    color: #ff4081;
+    font-size: 1.5rem;
+}
+
+.contact-item:hover {
+    transform: scale(1.05);
+    background: #ffdde1;
+}
+
+.thank-you {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ff4081;
+}
+.back-home-btn {
+    display: inline-block;
+    padding: 6px 14px; /* Small size */
+    font-size: 14px;
+    background-color: #004f6e; /* You can change to match your theme */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.back-home-btn:hover {
+    background-color: #198bd1;
+}
+
+/* Centering */
+body {
+    text-align: center;
+}
